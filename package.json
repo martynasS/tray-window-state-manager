@@ -1,0 +1,29 @@
+{
+  "name": "tray-window-state-manager",
+  "version": "1.0.0",
+  "description": "Simple NodeJS wrapper for managing Windows tray popup state.",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "test": "node test.js"
+  },
+  "gypfile": true,
+  "author": {
+    "name": "Martynas Skrebė",
+    "email": "martynaskrebe@gmail.com",
+    "url": "https://skrebe.me"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-gyp": "^7.1.2"
+  },
+  "os": [
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martynasS/tray-window-manager.git"
+  }
+}
