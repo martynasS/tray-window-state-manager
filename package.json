@@ -1,6 +1,6 @@
 {
   "name": "tray-window-state-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple NodeJS wrapper for managing Windows tray popup state.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/martynasS/tray-window-manager.git"
+    "url": "https://github.com/martynasS/tray-window-state-manager.git"
   }
 }
